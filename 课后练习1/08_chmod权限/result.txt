@@ -1,0 +1,3 @@
+-rwxrwxrwx 1 luanix luanix 13 Aug 25 11:23 test.sh
+-rwxrwxrwx 1 luanix luanix 13 Aug 25 11:23 test.sh
+Hello
