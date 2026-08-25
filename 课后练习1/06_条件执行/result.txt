@@ -1,0 +1,1 @@
+drwxr-xr-x 2 luanix luanix 4096 Aug 25 11:23 /tmp/my_dir
