@@ -1,0 +1,16 @@
+   1 ../01_确认Shell类型/result.txt
+  25 ../02_ls权限位含义/result.txt
+   0 ../03_glob通配符/file1.txt
+   0 ../03_glob通配符/file2.txt
+   0 ../03_glob通配符/file3.txt
+   6 ../03_glob通配符/result.txt
+   2 ../04_引号区别/result.txt
+   5 ../05_重定向/result.txt
+   1 ../06_条件执行/result.txt
+   2 ../07_test检查文件/result.txt
+   3 ../08_chmod权限/result.txt
+   3 ../09_set调试/result.txt
+   2 ../10_date命令替换/result.txt
+   2 ../11_管道统计/result.txt
+  14 ../12_find_xargs/result.txt
+  66 total
