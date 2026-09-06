@@ -1,1 +1,21 @@
 课后练习2/uaf
+# Python 虚拟环境
+venv/
+venv_clean/
+.env/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
