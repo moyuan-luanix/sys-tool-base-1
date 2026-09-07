@@ -1,0 +1,8 @@
+#!/mnt/d/系统开发工具基础实验/课后练习3/test_env/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from piptools.scripts.compile import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
