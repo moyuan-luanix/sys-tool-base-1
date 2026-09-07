@@ -19,3 +19,6 @@ build/
 .idea/
 *.swp
 *.swo
+test_env/
+venv_clean/
+*.txt
