@@ -29,8 +29,7 @@ venv_clean/
 # 只忽略临时txt
 requirements.txt
 
-# 课程作业生成物
+课后练习3/after.txt
+课后练习3/before.txt# 课程作业生成物
 q14/stats.txt
 q14/report.txt
-课后练习3/after.txt
-课后练习3/before.txt
