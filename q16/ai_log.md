@@ -1,0 +1,5 @@
+- 核心提示：当 --name 参数为空白字符时，程序应以 SystemExit(2) 退出
+- 改动：在 main() 中添加了 name 空白字符检查，如为空白则输出错误信息并 sys.exit(2)
+- 测试：用 pytest 验证，测试从 FAILED 变为 PASSED
+- 验证：手动运行 sdt-greet --name " " 确认退出码为 2
+- 人工检查：仅修改了 cli.py，未引入无关改动
