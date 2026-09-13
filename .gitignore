@@ -21,4 +21,14 @@ build/
 *.swo
 test_env/
 venv_clean/
-*.txt
+
+# 临时目录
+test_env/
+venv_clean/
+
+# 只忽略临时txt
+requirements.txt
+
+# 课程作业生成物
+q14/stats.txt
+q14/report.txt
