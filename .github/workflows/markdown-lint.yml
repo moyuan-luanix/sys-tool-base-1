@@ -1,0 +1,16 @@
+name: Markdown Lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  proselint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install proselint
+        run: pip install proselint
+      - name: Run proselint
+        run: |
+          find . -name '*.md' -print0 | xargs -0 proselint || true

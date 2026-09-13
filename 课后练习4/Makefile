@@ -1,6 +1,9 @@
-.PHONY: all clean
+.PHONY: all clean list
 
 all: paper.pdf
+
+list:
+	git ls-files
 
 paper.pdf: paper.tex
 	pdflatex paper.tex
